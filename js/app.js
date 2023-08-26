@@ -101,12 +101,12 @@ let projects = [
         }
     },
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/Card.png",
+        src:"https://mmicleus.github.io/portfolio/docs/assets/TicTacToe.png",
         desc:"Tic-Tac-Toe Game",
         modal:{
             title:"Tic-Tac-Toe Game",
             desc: "A Tic-Tac-Toe game built using Vanilla Javascript.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/Card.png",
+            src:"https://mmicleus.github.io/portfolio/docs/assets/TicTacToe.png",
             github:"https://github.com/mmicleus/tic-tac-toe",
             demo:"https://mmicleus.github.io/tic-tac-toe/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
