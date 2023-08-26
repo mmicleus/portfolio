@@ -65,19 +65,19 @@ let iconTitles = {
 
 let projects = [
     {
-        src:"https://github.com/mmicleus/portfolio/blob/172b3b1cb3af8df0ad4482a86f942ce38280b202/img/Biking.ie.png",
+        src:"../docs/assets/Biking.ie.png",
         desc:"Bike rental website",
         modal:{
             title:"Bike rental website",
             desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            src:"https://github.com/mmicleus/portfolio/blob/172b3b1cb3af8df0ad4482a86f942ce38280b202/img/Biking.ie.png",
+            src:"../docs/assets/Biking.ie.png",
             github:"https://github.com/mmicleus/Bike-rental",
             demo:"https://mmicleus.github.io/Bike-rental/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-firebase"]
         }
     },
     {
-        src:"../img/portfolio/movie.jpeg",
+        src:"../img/movie.jpeg",
         desc:"Cinema Website",
         modal:{
             title:"Cinema Website",
@@ -233,7 +233,7 @@ portfoliosContainer.innerHTML = projects.map((elem,index) => {
         <div class="portfolio-item-caption-content text-center text-white">${elem.desc}</div>
     </div>
     <!-- <div class="img-fluid" id="project1"></div> -->
-    <img class="img-fluid" id="project1" src="${elem.src}" alt="..." />
+    <img class="img-fluid" src="${elem.src}" alt="..." />
 </div>
 <div class="logos-container portfolio-logos-container d-flex justify-content-center mt-3">
                     ${content}
