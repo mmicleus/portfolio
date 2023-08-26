@@ -89,36 +89,36 @@ let projects = [
         }
     },
     {
-        src:"docs/assets/Alarm.png",
+        src:"/docs/assets/Alarm.png",
         desc:"Alarm app",
         modal:{
             title:"Alarm app",
             desc: "A mobile alarm app clone built using Vanilla Javascript.",
-            src:"docs/assets/Alarm.png",
+            src:"/docs/assets/Alarm.png",
             github:"https://github.com/mmicleus/Alarm-Application",
             demo:"https://mmicleus.github.io/Alarm-Application/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
         }
     },
     {
-        src:"docs/assets/Card.png",
+        src:"/docs/assets/Card.png",
         desc:"Tic-Tac-Toe Game",
         modal:{
             title:"Tic-Tac-Toe Game",
             desc: "A Tic-Tac-Toe game built using Vanilla Javascript.",
-            src:"docs/assets/Card.png",
+            src:"/docs/assets/Card.png",
             github:"https://github.com/mmicleus/tic-tac-toe",
             demo:"https://mmicleus.github.io/tic-tac-toe/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
         }
     },
     {
-        src:"docs/assets/Quiz.png",
+        src:"/docs/assets/Quiz.png",
         desc:"Quiz game",
         modal:{
             title:"Quiz game",
             desc: "A Quiz game built using Vanilla Javascript.",
-            src:"docs/assets/Quiz.png",
+            src:"/docs/assets/Quiz.png",
             github:"https://github.com/mmicleus/quiz",
             demo:"https://mmicleus.github.io/quiz/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
