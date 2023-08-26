@@ -65,24 +65,24 @@ let iconTitles = {
 
 let projects = [
     {
-        src:"/docs/assets/Biking.ie.png",
+        src:"docs/assets/Biking.ie.png",
         desc:"Bike rental website",
         modal:{
             title:"Bike rental website",
             desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            src:"/docs/assets/Biking.ie.png",
+            src:"docs/assets/Biking.ie.png",
             github:"https://github.com/mmicleus/Bike-rental",
             demo:"https://mmicleus.github.io/Bike-rental/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-firebase"]
         }
     },
     {
-        src:"/docs/assets/movie.jpeg",
+        src:"docs/assets/movie.jpeg",
         desc:"Cinema Website",
         modal:{
             title:"Cinema Website",
             desc: "Built this website as part of a college assignment. It enables users to search for movies and book cinema tickets. Used Vanilla Javascript for the business logic, including searching for movies, transfering data between pages and form validation.",
-            src:"/docs/assets/movie.jpeg",
+            src:"docs/assets/movie.jpeg",
             github:"https://github.com/mmicleus/cinema",
             demo:"https://mmicleus.github.io/cinema/index.html",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript"]
