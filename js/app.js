@@ -60,10 +60,23 @@ let iconTitles = {
         "devicons devicons-angular":"Angular",
         "devicons devicons-java":"Java",
         "devicons devicons-github_badge":"GitHub",
-        "devicons devicons-firebase":"Firebase"
+        "devicons devicons-firebase":"Firebase",
+        "devicons devicons-responsive":"Responsive Web Design"
     }
 
 let projects = [
+    {
+        src:"https://mmicleus.github.io/portfolio/docs/assets/airport.png",
+        desc:"Flight Tracking App",
+        modal:{
+            title:"Flight Tracking App",
+            desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
+            src:"https://mmicleus.github.io/portfolio/docs/assets/airport.png",
+            github:"https://github.com/mmicleus/airport-app",
+            demo:"https://mmicleus.github.io/airport-app/",
+            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-responsive"]
+        }
+    },
     {
         src:"https://mmicleus.github.io/portfolio/docs/assets/Biking.ie.png",
         desc:"Bike rental website",
