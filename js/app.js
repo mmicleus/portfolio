@@ -87,7 +87,6 @@ let projects = [
         modal:{
             title:"Bike rental website",
             desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            // src:["https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true"],
             src:["https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie4.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie5.png?raw=true"],
             github:"https://github.com/mmicleus/Bike-rental",
             demo:"https://mmicleus.github.io/Bike-rental/",
@@ -95,12 +94,13 @@ let projects = [
         }
     },
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/movie.jpeg",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax.png?raw=true",
         desc:"Cinema Website",
         modal:{
             title:"Cinema Website",
             desc: "Built this website as part of a college assignment. It enables users to search for movies and book cinema tickets. Used Vanilla Javascript for the business logic, including searching for movies, transfering data between pages and form validation.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/movie.jpeg",
+            // src:"https://mmicleus.github.io/portfolio/docs/assets/movie.jpeg",
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie4.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie5.png?raw=true"],
             github:"https://github.com/mmicleus/cinema",
             demo:"https://mmicleus.github.io/cinema/index.html",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript"]
