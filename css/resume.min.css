@@ -19,10 +19,30 @@
    /* max-width: 100%;
    height: auto; */
    /* background-size:cover; */
-   /* object-fit: fill; */
+   object-fit: contain; 
+   /* width:600px;
+   height:445px; */
    width:400px;
    height:297px;
  }
+
+ .modal-image{
+  width:800px;
+  height:600px;
+  object-fit: contain;
+
+ }
+
+ @media screen and (max-width:800px){
+  .modal-image{
+    width:400px;
+    height:297px;
+    object-fit: contain;
+   }
+  
+ }
+
+ 
 
  .portfolio .portfolio-item {
    cursor: pointer;

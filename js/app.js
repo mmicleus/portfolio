@@ -70,8 +70,12 @@ let projects = [
         desc:"Flight Tracking App",
         modal:{
             title:"Flight Tracking App",
-            desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            src:"https://github.com/mmicleus/portfolio/blob/main/img/airport.png?raw=true",
+            desc: `This app enables users to access the timetable of airports worldwide, as well as track one or more flights. I built this app
+            using the <b>Angular</b> Framework, in conjunction with <b>Angular Material</b> and <b>RXJS</b>. I used Angular's <b>HttpClient</b> to make HTTP requests to several aviation APIs and <b>RXJS</b> to structure the data returned by these APIs.
+            The app fetches data from 4 distinct APIs. The first one offers suggestions as users search for airports. The second one provides the timetable of the selected aiport in the form of an array of flights. The third API 
+            returns the logo of the airlines operating each of these flights. The last API is used for tracking flights.
+            `,
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport4.png?raw=true"],
             github:"https://github.com/mmicleus/airport-app",
             demo:"https://mmicleus.github.io/airport-app/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-responsive"]
@@ -164,7 +168,9 @@ function getIconTitle(icon){
 function populateModal(data){
         const title = document.querySelector('.portfolio-modal-title');
         const description = document.querySelector('.portfolio-paragraph');
-        const image = document.querySelector('.modal-image');
+        // const image = document.querySelector('.modal-image');
+        const carousel = document.querySelector(".carousel-inner");
+        const images = document.querySelectorAll('.modal-image');
         const github = document.querySelector('.repo-btn a')
         const view = document.querySelector('.view-btn a');
         const logosContainer = document.querySelector('.modal-logos-container');
@@ -172,7 +178,16 @@ function populateModal(data){
 
         title.innerHTML = data.title;
         description.innerHTML = data.desc;
-        image.src = data.src;
+        carousel.innerHTML = data.src.map((url,index) => index !== 0 ? `<div class="carousel-item">
+        <img class="modal-image rounded mb-3" src="${url}" alt="..." />
+        
+      </div>` : `<div class="carousel-item active">
+      <img class="modal-image rounded mb-3" src="${url}" alt="..." />
+    </div>`).join('');
+    
+
+        // image.src = data.src;
+        images.forEach((img) => img.src = data.src)
         github.href = data.github;
         view.href = data.demo;
         
@@ -245,7 +260,7 @@ portfoliosContainer.innerHTML = projects.map((elem,index) => {
 
         <div class="portfolio-item-caption-content text-center text-white">${elem.desc}</div>
     </div>
-    <!-- <div class="img-fluid" id="project1"></div> -->
+    <!-- <div class="img-fluid " id="project1"></div> -->
     <img class="img-fluid" src="${elem.src}" alt="..." />
 </div>
 <div class="logos-container portfolio-logos-container d-flex justify-content-center mt-3">
@@ -256,5 +271,15 @@ portfoliosContainer.innerHTML = projects.map((elem,index) => {
 }).join('');
 
 
+const myCarouselElement = document.querySelector('#carouselExample')
 
-});
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+//   interval: 2000,
+//   touch: false
+})
+
+
+}
+
+
+);
