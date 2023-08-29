@@ -100,7 +100,8 @@ let projects = [
             title:"Cinema Website",
             desc: "Built this website as part of a college assignment. It enables users to search for movies and book cinema tickets. Used Vanilla Javascript for the business logic, including searching for movies, transfering data between pages and form validation.",
             // src:"https://mmicleus.github.io/portfolio/docs/assets/movie.jpeg",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie4.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie5.png?raw=true"],
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax4.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax5.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax6.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax7.png?raw=true"],
             github:"https://github.com/mmicleus/cinema",
             demo:"https://mmicleus.github.io/cinema/index.html",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript"]
@@ -124,7 +125,7 @@ let projects = [
         modal:{
             title:"Tic-Tac-Toe Game",
             desc: "A Tic-Tac-Toe game built using Vanilla Javascript.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/TicTacToe.png",
+            src:["https://mmicleus.github.io/portfolio/docs/assets/TicTacToe.png"],
             github:"https://github.com/mmicleus/tic-tac-toe",
             demo:"https://mmicleus.github.io/tic-tac-toe/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
@@ -136,7 +137,7 @@ let projects = [
         modal:{
             title:"Quiz game",
             desc: "A Quiz game built using Vanilla Javascript.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/Quiz.png",
+            src:["https://mmicleus.github.io/portfolio/docs/assets/Quiz.png"],
             github:"https://github.com/mmicleus/quiz",
             demo:"https://mmicleus.github.io/quiz/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
