@@ -66,7 +66,7 @@ let iconTitles = {
 
 let projects = [
     {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/airport.png?raw=true",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true",
         desc:"Flight Tracking App",
         modal:{
             title:"Flight Tracking App",
