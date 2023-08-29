@@ -66,12 +66,12 @@ let iconTitles = {
 
 let projects = [
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/airport.png",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/airport.png?raw=true",
         desc:"Flight Tracking App",
         modal:{
             title:"Flight Tracking App",
             desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/airport.png",
+            src:"https://github.com/mmicleus/portfolio/blob/main/img/airport.png?raw=true",
             github:"https://github.com/mmicleus/airport-app",
             demo:"https://mmicleus.github.io/airport-app/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-responsive"]
