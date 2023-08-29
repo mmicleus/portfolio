@@ -75,7 +75,7 @@ let projects = [
             The app fetches data from 4 distinct APIs. The first one offers suggestions as users search for airports. The second one provides the timetable of the selected aiport in the form of an array of flights. The third API 
             returns the logo of the airlines operating each of these flights. The last API is used for tracking flights.
             `,
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport4.png?raw=true"],
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
             github:"https://github.com/mmicleus/airport-app",
             demo:"https://mmicleus.github.io/airport-app/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-responsive"]
@@ -184,7 +184,7 @@ function populateModal(data){
       </div>` : `<div class="carousel-item active">
       <img class="modal-image rounded mb-3" src="${url}" alt="..." />
     </div>`).join('');
-    
+
 
         // image.src = data.src;
         images.forEach((img) => img.src = data.src)
