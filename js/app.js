@@ -82,12 +82,12 @@ let projects = [
         }
     },
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/Biking.ie.png",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true",
         desc:"Bike rental website",
         modal:{
             title:"Bike rental website",
             desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/Biking.ie.png",
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true"],
             github:"https://github.com/mmicleus/Bike-rental",
             demo:"https://mmicleus.github.io/Bike-rental/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-firebase"]
