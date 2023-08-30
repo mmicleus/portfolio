@@ -113,7 +113,7 @@ let projects = [
         modal:{
             title:"Alarm app",
             desc: "A mobile alarm app clone built using Vanilla Javascript.",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm2.png?raw=true"],
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm3.png?raw=true"],
             github:"https://github.com/mmicleus/Alarm-Application",
             demo:"https://mmicleus.github.io/Alarm-Application/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
