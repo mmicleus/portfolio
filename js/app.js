@@ -108,36 +108,36 @@ let projects = [
         }
     },
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/Alarm.png",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm.png?raw=true",
         desc:"Alarm app",
         modal:{
             title:"Alarm app",
             desc: "A mobile alarm app clone built using Vanilla Javascript.",
-            src:"https://mmicleus.github.io/portfolio/docs/assets/Alarm.png",
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm.png?raw=true"],
             github:"https://github.com/mmicleus/Alarm-Application",
             demo:"https://mmicleus.github.io/Alarm-Application/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
         }
     },
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/TicTacToe.png",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/ticTacToe/TicTacToe.png?raw=true",
         desc:"Tic-Tac-Toe Game",
         modal:{
             title:"Tic-Tac-Toe Game",
             desc: "A Tic-Tac-Toe game built using Vanilla Javascript.",
-            src:["https://mmicleus.github.io/portfolio/docs/assets/TicTacToe.png"],
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/ticTacToe/TicTacToe.png?raw=true"],
             github:"https://github.com/mmicleus/tic-tac-toe",
             demo:"https://mmicleus.github.io/tic-tac-toe/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
         }
     },
     {
-        src:"https://mmicleus.github.io/portfolio/docs/assets/Quiz.png",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/quiz/Quiz.png?raw=true",
         desc:"Quiz game",
         modal:{
             title:"Quiz game",
             desc: "A Quiz game built using Vanilla Javascript.",
-            src:["https://mmicleus.github.io/portfolio/docs/assets/Quiz.png"],
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/quiz/Quiz.png?raw=true"],
             github:"https://github.com/mmicleus/quiz",
             demo:"https://mmicleus.github.io/quiz/",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
@@ -180,12 +180,19 @@ function populateModal(data){
 
         title.innerHTML = data.title;
         description.innerHTML = data.desc;
-        carousel.innerHTML = data.src.map((url,index) => index !== 0 ? `<div class="carousel-item">
-        <img class="modal-image rounded mb-3" src="${url}" alt="..." />
+        if(data.src.length === 1){
+            carousel.innerHTML = `<div class="carousel-item">
+            <img class="modal-image rounded mb-3" src="${data.src[0]}" alt="..." /> </div>`
+        }else{
+            carousel.innerHTML = data.src.map((url,index) => index !== 0 ? `<div class="carousel-item">
+            <img class="modal-image rounded mb-3" src="${url}" alt="..." />
         
-      </div>` : `<div class="carousel-item active">
-      <img class="modal-image rounded mb-3" src="${url}" alt="..." />
-    </div>`).join('');
+            </div>` : `<div class="carousel-item active">
+            <img class="modal-image rounded mb-3" src="${url}" alt="..." />
+            </div>`).join('');
+        }
+
+        
 
 
         // image.src = data.src;
