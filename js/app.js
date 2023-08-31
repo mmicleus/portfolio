@@ -172,6 +172,8 @@ function populateModal(data){
         const description = document.querySelector('.portfolio-paragraph');
         // const image = document.querySelector('.modal-image');
         const carousel = document.querySelector(".carousel-inner");
+        const carouselExample = document.querySelector("#carouselExample");
+        const image = document.querySelector("#carousel-alternative");
         const images = document.querySelectorAll('.modal-image');
         const github = document.querySelector('.repo-btn a')
         const view = document.querySelector('.view-btn a');
@@ -181,9 +183,13 @@ function populateModal(data){
         title.innerHTML = data.title;
         description.innerHTML = data.desc;
         if(data.src.length === 1){
-            carousel.innerHTML = `<div class="carousel-item">
-            <img class="modal-image rounded mb-3" src="${data.src[0]}" alt="..." /> </div>`
+            carouselExample.classList.add("hidden")
+            image.classList.remove("hidden")
+            image.src = data.src[0];
         }else{
+            carouselExample.classList.remove("hidden")
+            image.classList.add("hidden")
+
             carousel.innerHTML = data.src.map((url,index) => index !== 0 ? `<div class="carousel-item">
             <img class="modal-image rounded mb-3" src="${url}" alt="..." />
         

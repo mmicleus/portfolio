@@ -29,8 +29,12 @@
  .modal-image{
   width:800px;
   height:600px;
-  /* object-fit: contain; */
+  object-fit: contain;
 
+ }
+
+ .hidden{
+  display: none;
  }
 
  @media screen and (max-width:800px){
@@ -161,7 +165,7 @@
 }
  
 .modal-btn{
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   background-color: #868e96;
   border-color: #868e96;
   cursor:pointer;
