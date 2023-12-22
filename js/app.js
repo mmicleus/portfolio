@@ -205,7 +205,7 @@ let dotnetProjects = [
             src:["https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
             github:"https://github.com/mmicleus/Cinema-Management-System",
             demo:"https://cinemaproject2.azurewebsites.net",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","../img/icons/sql-server.png","devicons devicons-responsive"]
+            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true","devicons devicons-responsive"]
         }
     },
     {
