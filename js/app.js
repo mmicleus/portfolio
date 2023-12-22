@@ -237,56 +237,6 @@ let dotnetProjects = [
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-firebase"]
         }
     },
-    {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax.png?raw=true",
-        desc:"Cinema Website",
-        modal:{
-            title:"Cinema Website",
-            desc: "Built this website as part of a college assignment. It enables users to search for movies and book cinema tickets. Used Vanilla Javascript for the business logic, including searching for movies, transfering data between pages and form validation.",
-            // src:"https://mmicleus.github.io/portfolio/docs/assets/movie.jpeg",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax4.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax5.png?raw=true",
-            "https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax6.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/cinema/cinemax7.png?raw=true"],
-            github:"https://github.com/mmicleus/cinema",
-            demo:"https://mmicleus.github.io/cinema/index.html",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript"]
-        }
-    },
-    {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm.png?raw=true",
-        desc:"Alarm app",
-        modal:{
-            title:"Alarm app",
-            desc: "A mobile alarm app clone built using Vanilla Javascript.",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/alarm/Alarm3.png?raw=true"],
-            github:"https://github.com/mmicleus/Alarm-Application",
-            demo:"https://mmicleus.github.io/Alarm-Application/",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
-        }
-    },
-    {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/ticTacToe/TicTacToe.png?raw=true",
-        desc:"Tic-Tac-Toe Game",
-        modal:{
-            title:"Tic-Tac-Toe Game",
-            desc: "A Tic-Tac-Toe game built using Vanilla Javascript.",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/ticTacToe/TicTacToe.png?raw=true"],
-            github:"https://github.com/mmicleus/tic-tac-toe",
-            demo:"https://mmicleus.github.io/tic-tac-toe/",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
-        }
-    },
-    {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/quiz/Quiz.png?raw=true",
-        desc:"Quiz game",
-        modal:{
-            title:"Quiz game",
-            desc: "A Quiz game built using Vanilla Javascript.",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/quiz/Quiz.png?raw=true"],
-            github:"https://github.com/mmicleus/quiz",
-            demo:"https://mmicleus.github.io/quiz/",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-javascript"]
-        }
-    },
     // {
     //     src:"../img/portfolio/Quiz.png",
     //     desc:"Quiz game",
