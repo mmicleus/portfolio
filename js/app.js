@@ -97,6 +97,7 @@ let iconTitles = {
         "devicons devicons-firebase":"Firebase",
         "devicons devicons-responsive":"Responsive Web Design",
         "https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true":"SQL",
+        "https://github.com/mmicleus/portfolio/blob/main/img/icons/c-sharp.png?raw=true":"C#"
 
     }
 
@@ -200,12 +201,12 @@ let dotnetProjects = [
         desc:"Cinema Website / Management System",
         modal:{
             title:"Cinema Website / Management System",
-            desc: `
+            desc: `Cinema management system used for managing a multi-branch cinema
             `,
             src:["https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
             github:"https://github.com/mmicleus/Cinema-Management-System",
             demo:"https://cinemaproject2.azurewebsites.net",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true","devicons devicons-responsive"]
+            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","https://github.com/mmicleus/portfolio/blob/main/img/icons/c-sharp.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true","devicons devicons-responsive"]
         }
     },
     {
@@ -417,7 +418,7 @@ frontendContainer.innerHTML = frontendProjects.map((elem,index) => {
 
 function GetTextByType(data){
     if(data.includes("devicons")) return`<li class="list-inline-item"><i class="${data}" title="${getIconTitle(data)}"></i></li>`;
-    else return`<li class="list-inline-item"><i src="${data}" title="${getIconTitle(data)}"></i></li>`;
+    else return`<li class="list-inline-item"><img class="tech-img" src="${data}" title="${getIconTitle(data)}"></li>`;
    // if(data.type == 1) return `<li class="list-inline-item"><i class="${elem.src}" title="${getIconTitle(elem.src)}"></i></li>`
 }
 

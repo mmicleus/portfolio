@@ -10,6 +10,9 @@
 
 .portfolio-container{
     margin:3rem;
+}
 
-
+.tech-img{
+    width:2rem;
+    height:auto;
 }
