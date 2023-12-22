@@ -205,7 +205,7 @@ let dotnetProjects = [
             title:"Cinema Website / Management System",
             desc: `Cinema management system used for managing a multi-branch cinema
             `,
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
+            src:["https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema1.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
             github:"https://github.com/mmicleus/Cinema-Management-System",
             demo:"https://cinemaproject2.azurewebsites.net",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap",
@@ -354,19 +354,35 @@ function closeModal(){
     modal.classList.remove('show')
 }
 
-function onProjectClicked(elem){
+function onFrontendProjectClicked(elem){
     let id = +(elem.dataset.id);
 
-    console.log(id)
-    console.log(projects[id])
+    // console.log(id)
+    // console.log(proje[id])
 
-    let modalData = projects[id].modal;
+    let modalData = frontendProjects[id].modal;
 
     populateModal(modalData);
 
     let modal = document.querySelector('.Modal-container');
 
-    
+
+    document.querySelector('body').style.overflow = "hidden";
+    modal.classList.add('show')
+}
+
+function onDotNetProjectClicked(elem){
+    let id = +(elem.dataset.id);
+
+    // console.log(id)
+    // console.log(projects[id])
+
+    let modalData = dotnetProjects[id].modal;
+
+    populateModal(modalData);
+
+    let modal = document.querySelector('.Modal-container');
+
 
     document.querySelector('body').style.overflow = "hidden";
     modal.classList.add('show')
@@ -405,7 +421,7 @@ frontendContainer.innerHTML = frontendProjects.map((elem,index) => {
         let content = elem.modal.technologies.map((item) => GetTextByType(item)).join('');
     
     return `<div class="col-md-6 col-lg-4 mb-5">
-<div class="portfolio-item mx-auto" data-id="${index}" onclick="onProjectClicked(this)">
+<div class="portfolio-item mx-auto" data-id="${index}" onclick="onFrontendProjectClicked(this)">
     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
         <div class="portfolio-item-caption-content text-center text-white">${elem.desc}</div>
@@ -439,7 +455,7 @@ dotnetContainer.innerHTML = dotnetProjects.map((elem,index) => {
     console.log(content);
 
 return `<div class="col-md-6 col-lg-4 mb-5">
-<div class="portfolio-item mx-auto" data-id="${index}" onclick="onProjectClicked(this)">
+<div class="portfolio-item mx-auto" data-id="${index}" onclick="onDotNetProjectClicked(this)">
 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
 
     <div class="portfolio-item-caption-content text-center text-white">${elem.desc}</div>
