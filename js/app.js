@@ -202,7 +202,7 @@ let dotnetProjects = [
         src:"https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema1.png?raw=true",
         desc:"Cinema Website / Management System",
         modal:{
-            title:"Cinema Website / Management System",
+            title:"Cinema \n Website / Management System",
             desc: `Cinema management system used for managing a multi-branch cinema
             `,
             src:[
