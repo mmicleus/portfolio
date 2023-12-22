@@ -199,13 +199,22 @@ let frontendProjects = [
 
 let dotnetProjects = [
     {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true",
+        src:"https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema1.png?raw=true",
         desc:"Cinema Website / Management System",
         modal:{
             title:"Cinema Website / Management System",
             desc: `Cinema management system used for managing a multi-branch cinema
             `,
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema1.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
+            src:[
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema1.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema2.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema3.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema4.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema5.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema6.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema7.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema8.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema9.png?raw=true"],
             github:"https://github.com/mmicleus/Cinema-Management-System",
             demo:"https://cinemaproject2.azurewebsites.net",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap",
