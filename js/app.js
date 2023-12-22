@@ -97,7 +97,9 @@ let iconTitles = {
         "devicons devicons-firebase":"Firebase",
         "devicons devicons-responsive":"Responsive Web Design",
         "https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true":"SQL",
-        "https://github.com/mmicleus/portfolio/blob/main/img/icons/c-sharp.png?raw=true":"C#"
+        "https://github.com/mmicleus/portfolio/blob/main/img/icons/c-sharp.png?raw=true":"C#",
+        "https://github.com/mmicleus/portfolio/blob/main/img/icons/blazor.png?raw=true":"Blazor",
+        "https://github.com/mmicleus/portfolio/blob/main/img/icons/dotnet.png?raw=true":".Net"
 
     }
 
@@ -206,7 +208,12 @@ let dotnetProjects = [
             src:["https://github.com/mmicleus/portfolio/blob/main/img/airport/airport.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/airport/airport4.png?raw=true"],
             github:"https://github.com/mmicleus/Cinema-Management-System",
             demo:"https://cinemaproject2.azurewebsites.net",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","https://github.com/mmicleus/portfolio/blob/main/img/icons/c-sharp.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true","devicons devicons-responsive"]
+            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap",
+            "https://github.com/mmicleus/portfolio/blob/main/img/icons/blazor.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/icons/c-sharp.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/icons/dotnet.png?raw=true",
+            "https://github.com/mmicleus/portfolio/blob/main/img/icons/sql-server.png?raw=true",
+            "devicons devicons-responsive"]
         }
     },
     {
