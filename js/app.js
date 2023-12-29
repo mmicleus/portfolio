@@ -225,30 +225,6 @@ let dotnetProjects = [
             "devicons devicons-responsive"]
         }
     },
-    {
-        src:"https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true",
-        desc:"Bike rental website",
-        modal:{
-            title:"Bike rental website",
-            desc: "This website allows users to book one or more bikes and choose from several models as well as the quantity, date and time. It uses Firebase for the backend.The website was built using Angular, namely Angular Router, Forms, Authentication, and HttpClient.",
-            src:["https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie2.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie3.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie4.png?raw=true","https://github.com/mmicleus/portfolio/blob/main/img/biking/Biking.ie5.png?raw=true"],
-            github:"https://github.com/mmicleus/Bike-rental",
-            demo:"https://mmicleus.github.io/Bike-rental/",
-            technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular","devicons devicons-firebase"]
-        }
-    },
-    // {
-    //     src:"../img/portfolio/Quiz.png",
-    //     desc:"Quiz game",
-    //     modal:{
-    //         title:"Bike rental website",
-    //         desc: "Created using Angular",
-    //         src:"../img/portfolio/Biking.ie.png",
-    //         github:"https://github.com/mmicleus/Bike-rental",
-    //         demo:"https://mmicleus.github.io/Bike-rental/",
-    //         technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-sass","devicons devicons-bootstrap","devicons devicons-javascript","devicons devicons-angular"]
-    //     }
-    // },
 ]
 
 
