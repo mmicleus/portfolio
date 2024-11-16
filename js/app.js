@@ -215,7 +215,7 @@ let dotnetProjects = [
             "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema7.png?raw=true",
             "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema8.png?raw=true",
             "https://github.com/mmicleus/portfolio/blob/main/img/cinema2/cinema9.png?raw=true"],
-            github:"https://github.com/mmicleus/Cinema-Management-System",
+            github:"https://github.com/mmicleus/Cinema-Management-System/tree/session_search",
             demo:"https://cinemaproject2.azurewebsites.net",
             technologies:["devicons devicons-html5","devicons devicons-css3","devicons devicons-bootstrap",
             "https://github.com/mmicleus/portfolio/blob/main/img/icons/blazor.png?raw=true",
