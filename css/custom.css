@@ -1,3 +1,19 @@
+:root {
+  --bg-mist: #e8eef2;
+  --bg-base: #f0eeeb;
+  --bg-warm: rgba(189, 93, 56, 0.07);
+  --bg-cool: rgba(72, 110, 128, 0.09);
+}
+
+body {
+  background-color: var(--bg-base);
+  background-image:
+    radial-gradient(ellipse 70% 55% at 95% -10%, var(--bg-warm), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 0% 100%, var(--bg-cool), transparent 50%),
+    linear-gradient(165deg, var(--bg-mist) 0%, var(--bg-base) 48%, #e4e9ed 100%);
+  background-attachment: fixed;
+}
+
 .icon-label{
     font-size:0.1rem;
 }
@@ -15,4 +31,12 @@
 .tech-img{
     width:2rem;
     height:auto;
+}
+
+/* Keep About shorter so the next section is visible on load */
+@media (min-width: 768px) {
+  #about.resume-section {
+    min-height: auto;
+    padding-bottom: 4rem !important;
+  }
 }
