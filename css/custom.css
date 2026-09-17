@@ -16,3 +16,11 @@
     width:2rem;
     height:auto;
 }
+
+/* Keep About shorter so the next section is visible on load */
+@media (min-width: 768px) {
+  #about.resume-section {
+    min-height: auto;
+    padding-bottom: 4rem !important;
+  }
+}
